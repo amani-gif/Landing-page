@@ -3,3 +3,23 @@
 body{
     font-family: Roboto, sans-serif;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+h2{
+    color: white;
+}
+.hero{
+    background-color: #1f2937;
+}
