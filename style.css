@@ -4,22 +4,43 @@ body{
     font-family: Roboto, sans-serif;
 }
 
+.hero{
+    background-color: #1f2937;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
 }
+
 ul{
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-a{
+a,p{
     color: #e5e7eb;
     text-decoration: none;
+    font-size: 18px;
 }
-h2{
+
+.logo{
     color: white;
+    font-size: 48px;
+    font-weight: 900;
 }
-.hero{
-    background-color: #1f2937;
+
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button{
+    background-color: #3882f6;
+    padding: 7px 12px;
+    color: #e5e7eb;
+    border-radius: 16px;
 }
