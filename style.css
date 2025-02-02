@@ -13,6 +13,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 16px 100px;
+    margin-bottom: 150px;
 }
 
 ul{
@@ -50,10 +51,24 @@ button{
 
 .container{
     display: flex;
-
+    padding:100px;
+    gap: 30px;
+    align-items: center;
 }
 
-img{
+.info-img{
     width: 200px;
     height: auto;
+}
+
+.placeholder{
+    width: 600px;
+    height:200px;
+    background-color:#e5e7eb ;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-basis:500px;
 }
