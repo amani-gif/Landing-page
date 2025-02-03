@@ -82,3 +82,11 @@ h1{
     font-size: 36px;
     color: #1f2937;
 }
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
