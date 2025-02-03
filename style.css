@@ -73,8 +73,10 @@ button{
     background-color: #3882f6;
     padding: 7px 12px;
     color: #e5e7eb;
-    border-radius: 16px;
+    border-radius: 10px;
     width: 100px;
+    font-weight: 500;
+    border: none;
 }
 
 h1{
@@ -124,3 +126,30 @@ h1{
     margin-left: auto;
 }
 
+.bottom{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.bottom-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 16px;
+    width: 1000px;
+}
+
+.left-text{
+    color: white;
+}
+
+.left-text .title{
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.bottom button{
+    border: 2px solid white;
+}
