@@ -61,9 +61,9 @@ a, .left p, .footer{
     width: 600px;
     height:200px;
     background-color:#e5e7eb ;
-    text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .left{
